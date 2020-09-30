@@ -41,8 +41,8 @@ class Song
     self.all.sort_by { |song| song.name }
   end
   
-  def self.new_from_filename
-    split_data = csv_data.split("\n")
+  def self.new_from_filename(mp3_data_name)
+    split_data = mp3_data_name.split(" - ")
   end
   
   def self.destroy_all
