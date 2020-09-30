@@ -42,7 +42,7 @@ class Song
   end
   
   def self.new_from_filename
-  
+    split_data = csv_data.split("\n")
   end
   
   def self.destroy_all
