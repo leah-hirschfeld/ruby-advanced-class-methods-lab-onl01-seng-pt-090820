@@ -43,6 +43,7 @@ class Song
   
   def self.new_from_filename(mp3_data_name)
     split_data = mp3_data_name.split(" - ")
+    
   end
   
   def self.destroy_all
