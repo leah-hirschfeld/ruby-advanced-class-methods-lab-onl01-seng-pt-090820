@@ -33,7 +33,7 @@ class Song
     song = self.find_by_name(name)
     if song == nil 
       self.create_by_name(name)
-    puts song.name
+    puts song
    end
   end
   
